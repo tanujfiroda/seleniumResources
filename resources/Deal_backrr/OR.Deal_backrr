@@ -1,0 +1,21 @@
+Admin Login 
+Email_XPATH = //*[@id="outlined-adornment-email-login"]
+Password_NAME = password
+SignInButton_XPATH = //*[@id="root"]/div/div/div/div/div/div/div/div/div/div[2]/form/div[4]/div/button
+
+Startup_XPATH = //*[@id='root']/div/nav/div/div/div[2]/div/ul[3]/div/div[2]/p
+Deal_click_XPATH = //*[@id='root']/div/nav/div/div/div[2]/div/ul[3]/div[2]/div/div/div/a[1]/div[1]
+Deal_addButton_XPATH = //*[@id='simple-tabpanel-1']/div/div/div[2]/div[3]/button[1]
+
+//Deal form
+Scheme_NAME = scheme_name
+SelectStartupName_XPATH = //*[@id='menu-startup_id']/div[3]/ul/li[2]
+Round_NAME = round_name
+BankAccountSelect_XPATH = //*[@id='menu-bank_account_id']/div[3]/ul/li[6]
+DealTypeSelect_XPATH = //*[@id='menu-deal_type']/div[3]/ul/li[2]
+NoOfSecurity_NAME = number_of_securities
+ConvertableSecurities_NAME = convertible_securities
+SelectChecklistType_XPATH = //*[@id='menu-checklist_master_id']/div[3]/ul/li[2]
+ChecklistFetchButton_XPATH = //*[@id='3']/div/div[2]/div/div[2]/button
+Question_NAME = faq.0.question
+QuestionAnswer_NAME = faq.0.answer

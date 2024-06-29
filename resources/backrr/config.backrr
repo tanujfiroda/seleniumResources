@@ -1,0 +1,5 @@
+
+TestSiteUrl = https://admin-realtimeaf.wedighq.com/deals
+Browser = Chrome
+implicit.wait = 20
+explicit.wait = 5

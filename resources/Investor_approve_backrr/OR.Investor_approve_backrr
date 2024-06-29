@@ -1,0 +1,103 @@
+//Admin Login 
+Email_XPATH = //*[@id="outlined-adornment-email-login"]
+Password_NAME = password
+SignInButton_XPATH = //*[@id="root"]/div/div/div/div/div/div/div/div/div/div[2]/form/div[4]/div/button
+
+Investors_XPATH = //*[@id='root']/div/nav/div/div/div[2]/div/ul[2]/div/div[2]/p
+All_Investors_XPATH = //*[@id='root']/div/nav/div/div/div[2]/div/ul[2]/div[2]/div/div/div/a[1]/div[2]/p
+Add_Investor_XPATH = //*[@id='simple-tabpanel-0']/div/div/div[2]/div[3]/button
+
+//Investor Form
+First_NAME = first_name
+Last_NAME = last_name
+Email_NAME = email
+Phone_Code_XPATH = (//*[name()='path'])[74]
+Phone_Code_Click_XPATH = //*[@id="controllable-states-demo-option-97"]
+MobileNo_NAME = mobile_number
+DOBCalender_Click_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > button:nth-child(1)
+DOBCalender_chooseYear_Click_CSS = button[aria-label="calendar view is open, switch to year view"]
+DOBCalender_selectedYear_Click_CSS = div:nth-child(99) button:nth-child(1)
+DOBCalender_JanNxt_Click_CSS = button[title="Next month"]
+DOBCalender_ChooseDate_Click_CSS = body > div:nth-child(5) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(7)
+CitizenshipClick_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(9) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+CitizenshipSelect_XPATH = //*[@id='menu-country_cityzenship_id']/div[3]/ul/li[103]
+Occupation_NAME = occupation
+PanNo_NAME = pan_number
+
+//Resedential Address
+ResidentialAddress1_NAME  = residentialAddress.addressLine1
+ResidentialAddress2_NAME =  residentialAddress.addressLine2
+ResidentialCountryClick_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+ResidentialCountrySelect_XPATH = //*[@id='menu-residentialAddress.country']/div[3]/ul/li[102]
+ResidentialStateClick_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+ResidentialStateSelect_XPATH = //*[@id='menu-residentialAddress.state']/div[3]/ul/li[29]
+ResidentialCityClick_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+ResidentialCitySelect_XPATH = //*[@id="menu-residentialAddress.city"]/div[3]/ul/li[114]
+ResidentialZipCode_NAME = residentialAddress.zipCode
+
+//Bank Details
+BankAccountType_Click_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+BankAccountType_Select_XPATH = //*[@id='menu-']/div[3]/ul/li[2]
+BankName_Click_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+BankName_selected_XPATH = //*[@id='menu-bank_accounts.bank_id']/div[3]/ul/li[70]
+BankBranch_NAME = bank_accounts.branch_name
+AccountHolder_NAME = bank_accounts.account_holder_name
+BankAccountNumber_NAME = bank_accounts.bank_account_number
+IFSC_CODE_NAME = bank_accounts.ifsc_code
+
+//Demat Account Details
+dematAccType_XPATH = //*[@id='3']/div/div[2]/div/div/div[2]/div/div/label[1]/span[1]/input
+dpId_NAME = demat_account.dp_id
+customeId_NAME = demat_account.customer_id
+dematUploadClick_XPATH = //*[@id='3']/div/div[2]/div/div/div[5]/div[1]/label
+
+//Nominee Details
+nomineeFirstName_NAME = nominee_details.first_name
+nomineeLastName_NAME = nominee_details.last_name
+nomineeDobClick_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > button:nth-child(1)
+nomineeDobSelectDate_CSS = div:nth-child(3) button:nth-child(6)
+nomineeAddress1_NAME = nominee_details.address.addressLine1
+nomineeAddress2_NAME = nominee_details.address.addressLine2
+nomineeCountryClick_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+nomineeCountrySelect_XPATH = //*[@id='menu-nominee_details.address.country']/div[3]/ul/li[102]
+nomineeStateClick_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(8) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+nomineeStateSelect_XPATH = //*[@id='menu-nominee_details.address.state']/div[3]/ul/li[29]
+nomineeCityClick_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(9) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+nomineeCitySelect_XPATH = //*[@id='menu-nominee_details.address.city']/div[3]/ul/li[68]
+nomineeZipCode_NAME = nominee_details.address.zipCode
+nomineePanNu_NAME = nominee_details.nominee_pan_number
+nomineeRelationWithInvestor_NAME = nominee_details.relation_with_investor
+
+//Document Section
+DocumentSection_XPATH = //*[@id='root']/div/main/div/div[4]/form/div[2]/div/button
+docUploadFileCKYC_XPATH = //*[@id='3']/div/div[2]/div/div[2]/label
+docName_NAME = docs.0.name
+docGroupClick_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+docGroupSelectIdentity_XPATH = //*[@id='menu-docs.0.group_id']/div[3]/ul/li[1]
+docTypeClick_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+docTypeSelectIdentity_XPATH = //*[@id='menu-docs.0.upload_type']/div[3]/ul/li[5]
+
+//Settings Section
+settingSection_XPATH = //*[@id='root']/div/main/div/div[4]/div/div/div[7]/button/span/span[2]/span
+userTypeClick_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)					
+userTypeSelect_XPATH = //*[@id='menu-is_referral.master_user_type_id']/div[3]/ul/li[4]
+syndicateClick_CSS = #demo-simple-select
+syndicateSelect_XPATH = //*[@id='menu-syndicate_id']/div[3]/ul/li[24]/div/span
+blankClick_XPATH = //*[@id="2"]/div
+commitmentAmount_NAME = commitment_amount
+unitClassClick_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+unitClassSelect_XPATH = //*[@id='menu-unit_class_id']/div[3]/ul/li[2]
+stampNo_NAME = stamp_number
+ppmNo_NAME = ppm_number
+signatureDateClick_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(9) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > button:nth-child(1)
+signatureDateSelect_CSS = body > div:nth-child(5) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(4)
+agreementDateClick_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(10) > div:nth-child(1) > label:nth-child(1)
+//agreementDateSelect_CSS =  div:nth-child(3) button:nth-child(4)
+ckycNo_CSS = body > div:nth-child(2) > div:nth-child(1) > main:nth-child(3) > div:nth-child(2) > div:nth-child(4) > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(11) > div:nth-child(1) > div:nth-child(2) > input:nth-child(1)
+
+
+
+
+
+
+

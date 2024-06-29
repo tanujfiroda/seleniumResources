@@ -1,0 +1,16 @@
+INFO    2024-06-20 16:59:41,779 [main] TestCases.deal_backrr  - Typing in an element: Email_XPATH  Entering the value as : tanuj.firoda@wedigtech.com
+INFO    2024-06-20 16:59:41,930 [main] TestCases.deal_backrr  - Typing in an element: Password_NAME  Entering the value as : Tanuj@12345
+INFO    2024-06-20 16:59:42,033 [main] TestCases.deal_backrr  - Clicking on an element: SignInButton_XPATH
+INFO    2024-06-20 16:59:43,167 [main] TestCases.deal_backrr  - Clicking on an element: Startup_XPATH
+INFO    2024-06-20 16:59:43,343 [main] TestCases.deal_backrr  - Clicking on an element: Deal_click_XPATH
+INFO    2024-06-20 16:59:43,959 [main] TestCases.deal_backrr  - Clicking on an element: Deal_addButton_XPATH
+INFO    2024-06-20 16:59:46,892 [main] TestCases.deal_backrr  - Typing in an element: Scheme_NAME  Entering the value as : Tanuj
+INFO    2024-06-20 16:59:47,551 [main] TestCases.deal_backrr  - Clicking on an element: SelectStartupName_XPATH
+INFO    2024-06-20 16:59:50,345 [main] TestCases.deal_backrr  - Clicking on an element: BankAccountSelect_XPATH
+INFO    2024-06-20 16:59:50,977 [main] TestCases.deal_backrr  - Clicking on an element: DealTypeSelect_XPATH
+INFO    2024-06-20 16:59:51,617 [main] TestCases.deal_backrr  - Typing in an element: NoOfSecurity_NAME  Entering the value as : 112
+INFO    2024-06-20 16:59:52,409 [main] TestCases.deal_backrr  - Typing in an element: ConvertableSecurities_NAME  Entering the value as : Test
+INFO    2024-06-20 16:59:53,434 [main] TestCases.deal_backrr  - Clicking on an element: SelectChecklistType_XPATH
+INFO    2024-06-20 16:59:53,895 [main] TestCases.deal_backrr  - Clicking on an element: ChecklistFetchButton_XPATH
+INFO    2024-06-20 16:59:55,066 [main] TestCases.deal_backrr  - Typing in an element: Question_NAME  Entering the value as : Test Question?
+INFO    2024-06-20 16:59:57,282 [main] TestCases.deal_backrr  - Typing in an element: QuestionAnswer_NAME  Entering the value as : Test Answer

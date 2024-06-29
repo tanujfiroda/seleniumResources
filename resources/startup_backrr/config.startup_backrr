@@ -1,0 +1,4 @@
+TestSiteUrl = https://staging-rtaf-admin.wedighq.com/login
+Browser = Chrome
+implicit.wait = 10
+explicit.wait =5
